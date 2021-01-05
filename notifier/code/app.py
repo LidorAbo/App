@@ -1,2 +1,5 @@
-while True:
-    print("Analyze the frames...")
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def home():
+   return "Notifying users about events..."

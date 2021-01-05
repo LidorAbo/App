@@ -2,4 +2,4 @@ from flask import Flask
 app = Flask(__name__)
 @app.route("/")
 def home():
-   return "Analyzing the frames..."
+   return "Reading the video stream frames..."

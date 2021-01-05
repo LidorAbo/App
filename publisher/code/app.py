@@ -1,2 +1,5 @@
-while True:
-    print("Publish out the annotated frames...g")
+from flask import Flask
+app = Flask(__name__)
+@app.route("/")
+def home():
+   return "Publishing out the annotated frames..."
